@@ -23,6 +23,7 @@ public class driver {
             }
 
         }
+        sc.close();
 
     }
 
