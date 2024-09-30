@@ -3,13 +3,13 @@ package Polymorphism;
 public class Account {
 	
 	private String name;
-	private long accountNo;
-	private int bal;
+	long accountNo;
 	
-	public void createAccount(String name,long accountNo)
+	
+	public void createAccount(String name, long accountNo)
 	{
 		this.name=name;
-		this.accountNo=accountNo;
+	
 	}
 	
 	public void setName(String name)
@@ -22,15 +22,9 @@ public class Account {
 		return name;
 	}
 	
-	public void setBal(int bal)
-	{
-		this.bal=this.bal+bal;
-	}
+
 	
-	public int getBal()
-	{
-		return bal;
-	}
+	
 	
 	
 	
