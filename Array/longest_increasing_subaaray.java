@@ -1,6 +1,5 @@
 package Array;
 
-import market_interface.market;
 
 public class longest_increasing_subaaray {
     public static int lenOfLongIncSubArr(int arr[], int n) {
@@ -11,7 +10,7 @@ public class longest_increasing_subaaray {
             else {
                 if (max < len) 
                     max = len;
-                len = 1; 
+                len = 1;
             } 
         }
         if (max < len)
@@ -19,7 +18,7 @@ public class longest_increasing_subaaray {
         return max;
     }
     public static void main(String[] args) {
-        int arr[] = {5, 6, 3, 5, 7, 8, 9, 1, 2};
+        int arr[] = {2,3,11,6,10,14,16,1,20};
         int n = arr.length;
         System.out.println("Length = " + lenOfLongIncSubArr(arr, n));
     }
