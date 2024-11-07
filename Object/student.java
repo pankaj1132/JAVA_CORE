@@ -1,4 +1,4 @@
-package ObjectClass.HashCode;
+package Object;
 
 public class student {
     int sid;
